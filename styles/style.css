@@ -10,3 +10,43 @@
 .card-img{
     height: 200px;
 }
+
+.lista-navbar a:hover{
+    background-color: rgb(77, 204, 162);
+    color: black;
+    border-radius: 50px;
+}
+
+.separador {
+    background-color: rgb(34, 208, 149);
+    height: 0.25rem;
+    width: 5.25rem;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.938rem;
+  }
+
+  .card{
+    border: 2px solid rgb(34, 208, 149);
+  }
+
+  .btn-aqua{
+    background-color: rgb(34, 208, 149);
+  }
+
+  .btn-aqua:hover{
+    background-color: rgb(86, 239, 59) !important;
+  }
+
+  form{
+    width: 70% !important;
+  }
+
+  @media (max-width: 600px) {
+    form{
+        width: 100% !important;
+      }
+  }
+  
+  
