@@ -1,3 +1,6 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
 .card{
     color: black;
 }
@@ -9,6 +12,10 @@
 
 .card-img{
     height: 200px;
+}
+
+.lista-navbar a{
+  font-weight: bold;
 }
 
 .lista-navbar a:hover{
@@ -49,4 +56,11 @@
       }
   }
   
-  
+  .list-group-item-action.active{
+    background-color: rgb(34, 208, 149);
+    color: black;
+  }
+
+  .descripciones{
+    font-size: 20px;
+  }
