@@ -64,3 +64,11 @@ body{
   .descripciones{
     font-size: 20px;
   }
+
+  input{
+    border: 1px solid black !important;
+  }
+
+  textarea{
+    border: 1px solid black !important;
+  }
